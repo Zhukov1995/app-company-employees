@@ -1,0 +1,29 @@
+.header-info {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.header-info h2 {
+    margin-top: 20px;
+    color: lightgray;
+    font-size: 15px;
+}
+
+/* Адаптив */
+
+
+@media screen and (max-height: 768px) {
+    .header-info h2 {
+        margin-top: 10px;
+        color: lightgray;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-height: 320px) {
+    .header-info h2 {
+        margin-top: 10px;
+        color: lightgray;
+        font-size: 11px;
+    }
+}

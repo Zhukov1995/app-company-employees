@@ -1,0 +1,66 @@
+.employees__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+    font-size: 18px;
+    padding-left: 20px;
+    border-bottom: 1px solid black;
+}
+
+.item__info {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    max-width: 25px;
+    max-height: 35px;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.btn__delete {
+    border: none;
+    color: rgb(252, 78, 78);
+    margin-right: 10px;
+    background-color: transparent;
+}
+
+.btn__favorit {
+    color: rgb(248, 252, 8);
+    border: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    opacity: 0;
+    background-color: transparent;
+}
+
+.active__favorit {
+    color: rgb(248, 252, 8);
+    opacity: 1;
+}
+
+.btn__favorit:hover {
+    opacity: 0.5;
+}
+
+.btn__bonus {
+    color: rgb(4, 136, 4);
+    border: none;
+    width: 40px;
+    margin-right: 10px;
+    background-color: transparent;
+}
+
+.active__bonus {
+    background-color: lightgreen;
+    width: 100%;
+}
+
+.buttons_item {
+    width: 150px;
+    padding-left: 30px;
+}
+

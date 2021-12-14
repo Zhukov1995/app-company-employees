@@ -1,0 +1,19 @@
+.filter {
+    width: 500px;
+    margin-left: 5%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.filter__btn {
+    width: 150px;
+    height: 30px;
+}
+
+.active {
+    background-color: rgb(140, 177, 154);
+    border: none;
+}
+

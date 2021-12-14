@@ -1,0 +1,34 @@
+.add-new-employee {
+    height: 19vh;
+    background-color: rgb(2, 66, 68);
+}
+
+.add-new-employee h2 {
+    padding-top: 20px;
+    text-align: center;
+    color: lightgray;
+}
+
+.add-form {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.inpt-name,
+.inpt-salary {
+    width: 40%;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 1px;
+}
+
+.btn-add-new-employee {
+    width: 30%;
+    background-color: rgb(140, 177, 154);
+    border: none;
+    margin-left: 1px;
+}
+
